@@ -9,6 +9,7 @@ https://www.git-scm.com/download
 alah next next aja itu.. basic
 
 # First thing to setup
+Buka Git Bash.
 Atur Nama dan alamat email.
 ```bash
 git config --global user.name "namaKamu"
