@@ -3,6 +3,7 @@ Risun belajar penggunaan git.
 
 # Download Git 
 https://www.git-scm.com/download 
+![dw-git](https://github.com/risunCode/RisunGitLearn/assets/155391863/1e7747fe-ab17-4e25-be14-56ad10f39c22)
 
 # Instalasi
 alah next next aja itu.. basic
