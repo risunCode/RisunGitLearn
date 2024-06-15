@@ -29,7 +29,7 @@ git config --list
 - Buka GIT GUI
 - Arahkan ke bagian Help > SSH > Generate Key
 - Masukkan Sandi untuk SSH (lalu copy hasil generated SSH) 
-
+![ssh](https://github.com/risunCode/RisunGitLearn/assets/155391863/8a8ce967-aa98-4b6e-9357-9c7c0e0f247f)
 
 # Masukkan SSH tadi ke Akun Githubmu
 - Buka Browser
@@ -38,8 +38,7 @@ git config --list
 - Lihat bagian SSH & GPG Keys
 - Tekan dan masukkan SSH mu tadi disitu dengan cara pencet "New SSH Key"
 - Add SSH Key & done!
-![ssh](https://github.com/risunCode/RisunGitLearn/assets/155391863/8a8ce967-aa98-4b6e-9357-9c7c0e0f247f)
-
+![image](https://github.com/risunCode/RisunGitLearn/assets/155391863/6ff2df2e-2249-41af-92b3-032a58618497)
 #Sekarang Kamu sudah siap untuk Git
 
 
