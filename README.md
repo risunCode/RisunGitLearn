@@ -37,9 +37,10 @@ git config --list
 - Tekan gambar profilemu lalu cari pengaturan/settings atau via Link (https://github.com/settings/ssh/new)
 - Lihat bagian SSH & GPG Keys
 - Tekan dan masukkan SSH mu tadi disitu dengan cara pencet "New SSH Key"
+- ![image](https://github.com/risunCode/RisunGitLearn/assets/155391863/6ff2df2e-2249-41af-92b3-032a58618497)
 - Add SSH Key & done!
--![image](https://github.com/risunCode/RisunGitLearn/assets/155391863/6ff2df2e-2249-41af-92b3-032a58618497)
-#Sekarang Kamu sudah siap untuk Git
+- #Sekarang Kamu sudah siap untuk Git
+
 
 
 # Mengupload projek yang sudah tersedia di github
