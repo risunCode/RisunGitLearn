@@ -36,7 +36,9 @@ git config --list
 - Tekan gambar profilemu lalu cari pengaturan/settings atau via Link (https://github.com/settings/ssh/new)
 - Lihat bagian SSH & GPG Keys
 - Tekan dan masukkan SSH mu tadi disitu dengan cara pencet "New SSH Key"
-- Add SSH Key & done! 
+- Add SSH Key & done!
+![ssh](https://github.com/risunCode/RisunGitLearn/assets/155391863/8a8ce967-aa98-4b6e-9357-9c7c0e0f247f)
+
 #Sekarang Kamu sudah siap untuk Git
 
 
@@ -46,24 +48,27 @@ git config --list
 - seperti contoh C:\xampp\htdocs\RisunGitLearn
 - Lalu klik kanan di dalam foldernya (tanpa memilih file apapun)
 - Klik Git Bash 
+![dowoda](https://github.com/risunCode/RisunGitLearn/assets/155391863/26c03196-2324-4b6d-912f-ff6de63d8cea)
 
   
-#selanjutnya masukkan perintah dibawah
-sesuaikan alamatnya dengan repositori kamu sendiri
+#atur agar menjadi default main
 ```bash
-echo "# RisunGitLearn" >> README.md
+git config --global init.defaultBranch main
 ```
+
+# Mengupload file lokal ke branch main/master/dll ke repositori Github
+sesuaikan dengan alamat repositori kamu sendiri
 ```bash
 git init
 ```
 ```bash
-git add README.md
-```
-```bash
-git commit -m "first commit"
+git add .
 ```
 ```bash
 git branch -M main
+```
+```bash
+git commit -m "first commit"
 ```
 ```bash
 git remote add origin https://github.com/risunCode/RisunGitLearn.git
@@ -71,7 +76,8 @@ git remote add origin https://github.com/risunCode/RisunGitLearn.git
 ```bash
 git push -u origin main
 ``` 
-# Bum taraaa file sudah terupload ke github! 
+# Bum taraaa file sudah terupload ke github!
+![ddwd](https://github.com/risunCode/RisunGitLearn/assets/155391863/f061ad35-c931-42b9-94a7-82c9e390ed04)
 
 
 # Referensi Pembelajaran
