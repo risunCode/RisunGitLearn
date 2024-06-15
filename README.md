@@ -58,7 +58,7 @@ git config --list
 git config --global init.defaultBranch main
 ```
 
-# Mengupload file lokal ke branch main/master/dll ke repositori Github
+# Mengupload file lokal ke branch main/master/dll di repositori Github
 sesuaikan dengan alamat repositori kamu sendiri
 ```bash
 git init
