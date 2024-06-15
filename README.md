@@ -2,8 +2,7 @@
 Risun belajar penggunaan git.
 
 # Download Git 
-https://www.git-scm.com/download
-![image](https://github.com/risunCode/RisunGitLearn/assets/155391863/6d0eb48e-f026-4076-bada-0d9f4dfd9af5)
+https://www.git-scm.com/download 
 
 # Instalasi
 alah next next aja itu.. basic
@@ -28,8 +27,7 @@ git config --list
 # Atur SSH
 - Buka GIT GUI
 - Arahkan ke bagian Help > SSH > Generate Key
-- Masukkan Sandi untuk SSH (lalu copy hasil generated SSH)
- ![image](https://github.com/risunCode/RisunGitLearn/assets/155391863/de9ba3fa-d1c4-401a-b90e-4c7a11d374e0)
+- Masukkan Sandi untuk SSH (lalu copy hasil generated SSH) 
 
 
 # Masukkan SSH tadi ke Akun Githubmu
@@ -47,29 +45,33 @@ git config --list
 - Arahkan ke folder yang menjadi tujuan upload ke github
 - seperti contoh C:\xampp\htdocs\RisunGitLearn
 - Lalu klik kanan di dalam foldernya (tanpa memilih file apapun)
-- Klik Git Bash
-- ![image](https://github.com/risunCode/RisunGitLearn/assets/155391863/255134a2-6ce3-4a77-983f-2fe0d5468005)
+- Klik Git Bash 
 
   
 #selanjutnya masukkan perintah dibawah
 sesuaikan alamatnya dengan repositori kamu sendiri
 ```bash
+echo "# RisunGitLearn" >> README.md
+```
+```bash
 git init
 ```
 ```bash
-git add .
+git add README.md
 ```
 ```bash
-git commit -m "Komentar untuk upload file"
+git commit -m "first commit"
+```
+```bash
+git branch -M main
 ```
 ```bash
 git remote add origin https://github.com/risunCode/RisunGitLearn.git
 ```
 ```bash
-git push -u -f origin master
-```
-# Bum taraaa file sudah terupload ke github!
-![image](https://github.com/risunCode/RisunGitLearn/assets/155391863/ca3792cf-afc2-4c34-90e3-02d44cd06320)
+git push -u origin main
+``` 
+# Bum taraaa file sudah terupload ke github! 
 
 
 # Referensi Pembelajaran
