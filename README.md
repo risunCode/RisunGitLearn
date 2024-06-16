@@ -103,11 +103,15 @@ git branch
 ```bash
 git checkout -b notmain
 ```
+- setup branch baru
+```bash
+git add .
+```
 - push ke branch baru (sesuaikan nama)
 ```bash
-git push -u notmain
+git push -u origin notmain
 ```
-- Pindah ke branch lain
+- Untuk berPindah ke branch lain
 ```bash
 git checkout nama-branch
 ```
