@@ -90,6 +90,28 @@ git clone https://alamatrepositoritarget.git
 ``` 
 ![image](https://github.com/risunCode/RisunGitLearn/assets/155391863/ef20651e-78b4-407f-8c19-afcafbc74b7b)
 
+# Membuat Branch baru via Git untuk target upload 
+- Koneksikan ke repositori online github mu!
+```bash
+git remote add origin https://github.com/repositorimu.git
+```
+- cmd untuk melihat repositori yang ada
+```bash
+git branch
+```
+- Buat branch baru (sesuaikan nama)
+```bash
+git checkout -b notmain
+```
+- push ke branch baru (sesuaikan nama)
+```bash
+git push -u notmain
+```
+- Pindah ke branch lain
+```bash
+git checkout nama-branch
+```
+
 # Referensi Pembelajaran
 - https://github.com/StevenMMortimer/master-to-main/blob/main/README.md
 - https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-and-Opinions/Create-Git-Repo-Repository-Init-New-Clone-Example-Tutorial
