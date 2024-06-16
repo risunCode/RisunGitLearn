@@ -81,6 +81,14 @@ git push -u origin main
 # Bum taraaa file sudah terupload ke github!
 ![ddwd](https://github.com/risunCode/RisunGitLearn/assets/155391863/f061ad35-c931-42b9-94a7-82c9e390ed04)
 
+# Mengunduh repositori online ke lokal
+- Masuk ke folder lokal yang menjadi target lokasi download
+- klik kanan di dalam folder (tanpa memilih apapun)
+- Pilih git Bash lalu masukkan command dibawah (sesuaikan dengan repositori target)
+```bash
+git clone https://alamatrepositoritarget.git
+``` 
+![image](https://github.com/risunCode/RisunGitLearn/assets/155391863/ef20651e-78b4-407f-8c19-afcafbc74b7b)
 
 # Referensi Pembelajaran
 - https://github.com/StevenMMortimer/master-to-main/blob/main/README.md
