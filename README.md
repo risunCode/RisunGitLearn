@@ -75,8 +75,9 @@ git commit -m "first commit"
 ```bash
 git remote add origin https://github.com/risunCode/RisunGitLearn.git
 ```
+- paksa tulis dengan force 
 ```bash
-git push -u origin main
+git push -u -f origin main
 ``` 
 # Bum taraaa file sudah terupload ke github!
 ![ddwd](https://github.com/risunCode/RisunGitLearn/assets/155391863/f061ad35-c931-42b9-94a7-82c9e390ed04)
